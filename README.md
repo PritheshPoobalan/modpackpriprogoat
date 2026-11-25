@@ -123,3 +123,8 @@ See the repository for licensing and terms of use.
 ## Security
 
 This repository is public. Do not add secrets, credentials, or private keys to any file in this repository.
+
+## Documentation update 1
+
+Improved project documentation for modpackpriprogoat (entry 1, 2026-11-25T08:04:02Z).
+- Clarified repository structure and purpose.

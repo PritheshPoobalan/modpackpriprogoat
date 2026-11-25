@@ -7,3 +7,4 @@
 - 2026-11-25T09:42:38Z | Add inline comments for function parameters
 - 2026-11-25T09:42:38Z | Document return values in source comments
 - 2026-11-25T09:42:38Z | Add example configuration file
+- 2026-11-25T09:42:38Z | Add sample usage script

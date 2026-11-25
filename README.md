@@ -168,3 +168,8 @@ Improved project documentation for modpackpriprogoat (entry 22, 2026-11-25T08:04
 
 Improved project documentation for modpackpriprogoat (entry 25, 2026-11-25T08:04:03Z).
 - Clarified repository structure and purpose.
+
+## Documentation update 28
+
+Improved project documentation for modpackpriprogoat (entry 28, 2026-11-25T08:04:03Z).
+- Clarified repository structure and purpose.

@@ -10,3 +10,4 @@
 - 2026-11-25T09:42:38Z | Add sample usage script
 - 2026-11-25T09:42:38Z | Create API endpoint documentation
 - 2026-11-25T09:42:38Z | Document environment variables
+- 2026-11-25T09:42:38Z | Add troubleshooting section to docs

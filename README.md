@@ -7,6 +7,7 @@ and maintain the modpack.
 ## Contents
 
 - README.md — this file, project overview and quick start
+- LICENSE — MIT license text
 - docs/getting-started.md — step-by-step setup instructions
 - docs/usage.md — how to use the modpack after installation
 - docs/project-structure.md — repository layout conventions
@@ -92,6 +93,6 @@ to submit changes.
 
 ## License
 
-This project is released under the MIT License. It is maintained in the public
-repository at https://github.com/PritheshPoobalan/modpackpriprogoat.
-See the repository for licensing and terms of use.
+This project is licensed under the MIT License. See LICENSE for the full
+license text. It is maintained in the public repository at
+https://github.com/PritheshPoobalan/modpackpriprogoat.

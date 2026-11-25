@@ -5,9 +5,25 @@
 # Operating system files
 .DS_Store
 Thumbs.db
+Thumbs.db:ignorable
+desktop.ini
 
-# Editor and IDE directories
+# Editor and IDE artifacts
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+*.bak
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.env
+.env.local
+
+# Build and output artifacts
+dist/
+build/
+out/

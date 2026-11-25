@@ -66,3 +66,4 @@
 - 2026-11-25T09:42:39Z | Add comments for event handlers
 - 2026-11-25T09:42:39Z | Document backup and restore steps
 - 2026-11-25T09:42:39Z | Add inline comments for state management
+- 2026-11-25T09:42:39Z | Improve README linking

@@ -9,3 +9,4 @@
 - 2026-11-25T09:42:38Z | Add example configuration file
 - 2026-11-25T09:42:38Z | Add sample usage script
 - 2026-11-25T09:42:38Z | Create API endpoint documentation
+- 2026-11-25T09:42:38Z | Document environment variables

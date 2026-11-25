@@ -1,0 +1,26 @@
+{
+  "modpack": {
+    "name": "Example Modpack",
+    "version": "1.0.0",
+    "game_version": "1.20.1",
+    "loader": "forge",
+    "loader_version": "47.2.0",
+    "description": "An example modpack manifest for modpackpriprogoat"
+  },
+  "mods": [
+    {
+      "name": "Example Mod One",
+      "file": "example-mod-one.jar",
+      "version": "1.0.0",
+      "url": "https://example.com/mods/example-mod-one",
+      "description": "Replace this entry with a real mod from your modpack."
+    },
+    {
+      "name": "Example Mod Two",
+      "file": "example-mod-two.jar",
+      "version": "2.1.0",
+      "url": "https://example.com/mods/example-mod-two",
+      "description": "Add the matching archive to mods/ before packaging."
+    }
+  ]
+}

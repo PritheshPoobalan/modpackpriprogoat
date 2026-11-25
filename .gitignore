@@ -1,0 +1,13 @@
+# Packaged modpack archives
+*.zip
+*.jar
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE directories
+.idea/
+.vscode/
+*.swp
+*.swo

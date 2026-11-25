@@ -51,3 +51,4 @@
 - 2026-11-25T09:42:39Z | Document contribution workflow
 - 2026-11-25T09:42:39Z | Add example environment setup
 - 2026-11-25T09:42:39Z | Improve code comment clarity
+- 2026-11-25T09:42:39Z | Document module responsibilities

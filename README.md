@@ -128,3 +128,8 @@ This repository is public. Do not add secrets, credentials, or private keys to a
 
 Improved project documentation for modpackpriprogoat (entry 1, 2026-11-25T08:04:02Z).
 - Clarified repository structure and purpose.
+
+## Documentation update 4
+
+Improved project documentation for modpackpriprogoat (entry 4, 2026-11-25T08:04:03Z).
+- Clarified repository structure and purpose.

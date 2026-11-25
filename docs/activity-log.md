@@ -43,3 +43,4 @@
 - 2026-11-25T09:42:39Z | Document release process
 - 2026-11-25T09:42:39Z | Add comments for constants and variables
 - 2026-11-25T09:42:39Z | Update README screenshots section
+- 2026-11-25T09:42:39Z | Document integration points

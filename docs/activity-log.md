@@ -2,3 +2,4 @@
 - 2026-11-25T09:42:38Z | Add installation instructions to README
 - 2026-11-25T09:42:38Z | Add usage examples to README
 - 2026-11-25T09:42:38Z | Document contributing guidelines in README
+- 2026-11-25T09:42:38Z | Clarify license information in README

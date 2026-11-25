@@ -53,3 +53,4 @@
 - 2026-11-25T09:42:39Z | Improve code comment clarity
 - 2026-11-25T09:42:39Z | Document module responsibilities
 - 2026-11-25T09:42:39Z | Create example feature file
+- 2026-11-25T09:42:39Z | Add comments for external dependencies

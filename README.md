@@ -35,6 +35,8 @@ Before you begin, make sure you have the following installed:
 
 3. Review the example manifest in example/sample-modpack.json to understand
    the expected mod list format.
+      Validate it:
+      python -m json.tool example/sample-modpack.json > /dev/null
 
 4. Add your mods to the mods/ directory and update the manifest with the mod
    name, version, and download URL for each entry.

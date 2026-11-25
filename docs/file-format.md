@@ -1,6 +1,11 @@
-# Modpack manifest format
+# Modpack manifest format (flat format)
 
-The manifest is a JSON file named `modpack.json` at the repository root. A complete example is stored at `example/modpack-manifest.json`. Field meanings are described below.
+The manifest is a JSON file at the repository root, for example `modpack.json`.
+Two complete examples are stored in the `example/` directory:
+`example/modpack-manifest.json` (Fabric) and
+`example/modpack-manifest-forge.json` (Forge). Field meanings are described
+below. The repository also contains a nested-format example at
+`example/sample-modpack.json`; choose one format and use it consistently.
 
 ## Top-level fields
 

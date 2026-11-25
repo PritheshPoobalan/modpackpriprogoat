@@ -4,17 +4,35 @@ modpackpriprogoat is a modpack project repository. It contains the structure,
 documentation, scripts, and example files needed to assemble, install, configure,
 and maintain the modpack.
 
+## Features
+
+- Repository layout for modpack configuration files and scripts
+- Example modpack manifests for Fabric and Forge
+- Step-by-step getting started guide (docs/getting-started.md)
+- Usage and configuration instructions (docs/usage.md)
+- Manifest format reference (docs/file-format.md)
+- Repository layout conventions (docs/project-structure.md)
+- Contribution guidelines (docs/contributing.md)
+- Issue reporting through the repository issue tracker
+- .gitignore tuned for modpack projects (build outputs, OS files, editor files, secrets)
+
+## Prerequisites
+
+- A Minecraft installation matching the game version named in your manifest.
+- A mod loader installation matching the loader named in your manifest, for example Forge, Fabric, or NeoForge.
+
 ## Contents
 
 - README.md — this file, project overview and quick start
-- LICENSE — MIT license text
 - docs/getting-started.md — step-by-step setup instructions
 - docs/usage.md — how to use the modpack after installation
 - docs/project-structure.md — repository layout conventions
 - docs/contributing.md — how to contribute changes to this repository
-- docs/overview.md — repository layout and module conventions
-- example/sample-modpack.json — example modpack manifest
-- example/sample.modpack — example module manifest for reference
+- example/sample-modpack.json — example modpack manifest (nested format)
+- example/modpack-manifest.json — example Fabric manifest (flat format)
+- example/modpack-manifest-forge.json — example Forge manifest (flat format)
+- .gitignore — common ignore rules for modpack projects
+- LICENSE — MIT license
 
 ## Requirements
 
@@ -38,8 +56,6 @@ Before you begin, make sure you have the following installed:
 
 3. Review the example manifest in example/sample-modpack.json to understand
    the expected mod list format.
-      Validate it:
-      python -m json.tool example/sample-modpack.json > /dev/null
 
 4. Add your mods to the mods/ directory and update the manifest with the mod
    name, version, and download URL for each entry.
@@ -57,15 +73,29 @@ modpackpriprogoat/
 ├── README.md                # Project overview and quick start
 ├── docs/
 │   ├── contributing.md      # Contribution process
+│   ├── file-format.md       # Manifest format reference (flat format)
 │   ├── getting-started.md   # Step-by-step setup instructions
 │   ├── project-structure.md # Repository layout conventions
 │   └── usage.md             # Usage guide
 ├── example/
-│   └── sample-modpack.json  # Example modpack manifest
+│   ├── sample-modpack.json   # Example modpack manifest (nested format)
+│   ├── modpack-manifest.json      # Example Fabric manifest (flat format)
+│   └── modpack-manifest-forge.json  # Example Forge manifest (flat format)
+├── LICENSE                  # MIT license
 └── .gitignore               # Files excluded from version control
 ```
 
 See docs/project-structure.md for the full layout.
+
+## Example manifests
+
+The example/ directory contains alternative manifest formats:
+
+- example/sample-modpack.json — nested format with a top-level modpack object
+- example/modpack-manifest.json — flat format for a Fabric-based pack
+- example/modpack-manifest-forge.json — flat format for a Forge-based pack
+
+Choose one format and use it consistently for your pack.
 
 ## Usage
 
@@ -84,15 +114,12 @@ Contributions are welcome. To contribute:
 Read docs/contributing.md for the contribution process, coding style, and how
 to submit changes.
 
-## Repository layout
-
-- README.md          - this file
-- docs/              - project documentation
-- example/           - example files for reference
-- modules/           - your modular pack components go here
-
 ## License
 
-This project is licensed under the MIT License. See LICENSE for the full
-license text. It is maintained in the public repository at
-https://github.com/PritheshPoobalan/modpackpriprogoat.
+This project is released under the MIT License. It is maintained in the public
+repository at https://github.com/PritheshPoobalan/modpackpriprogoat.
+See the repository for licensing and terms of use.
+
+## Security
+
+This repository is public. Do not add secrets, credentials, or private keys to any file in this repository.

@@ -2,6 +2,12 @@
 *.zip
 *.jar
 
+# Working copy of the manifest (generated from the example)
+/modpack.json
+
+# Downloaded mod files
+mods/
+
 # Operating system files
 .DS_Store
 Thumbs.db
@@ -20,8 +26,11 @@ desktop.ini
 *.log
 *.tmp
 *.temp
+
+# Secrets — never commit credentials or API keys
 .env
 .env.local
+secrets/
 
 # Build and output artifacts
 dist/

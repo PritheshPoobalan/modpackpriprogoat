@@ -1,0 +1,15 @@
+{
+  "name": "Example Forge Modpack",
+  "game_version": "1.20.1",
+  "loader": "forge",
+  "loader_version": "47.2.0",
+  "mods": [
+    {
+      "id": "example-mod",
+      "name": "Example Mod",
+      "version": "1.0.0",
+      "side": "both",
+      "required": true
+    }
+  ]
+}

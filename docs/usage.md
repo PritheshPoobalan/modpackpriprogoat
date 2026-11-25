@@ -32,13 +32,9 @@ modpacks.
 
 ## Launching the modpack
 
-Launch the modpack using the launcher or start script appropriate for your
-platform. If a start script is included in the repository, run it from the
-repository root:
-
-./start.sh
-
-Otherwise, use the modpack launcher provided by the target platform.
+Launch the modpack using the launcher appropriate for your target platform.
+This repository does not include a start script; use the modpack loader
+provided by Forge, Fabric, or NeoForge to load the pack.
 
 ## Configuration
 

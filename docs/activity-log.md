@@ -34,3 +34,4 @@
 - 2026-11-25T09:42:39Z | Document version history
 - 2026-11-25T09:42:39Z | Add inline comments for loops and conditionals
 - 2026-11-25T09:42:39Z | Create sample data file
+- 2026-11-25T09:42:39Z | Document deployment steps

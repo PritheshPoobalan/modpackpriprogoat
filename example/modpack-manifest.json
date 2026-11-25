@@ -1,0 +1,15 @@
+{
+  "name": "Example Modpack",
+  "game_version": "1.20.1",
+  "loader": "fabric",
+  "loader_version": "0.14.9",
+  "mods": [
+    {
+      "id": "example-mod",
+      "name": "Example Mod",
+      "version": "1.0.0",
+      "side": "both",
+      "required": true
+    }
+  ]
+}

@@ -48,3 +48,4 @@
 - 2026-11-25T09:42:39Z | Create example README snippet
 - 2026-11-25T09:42:39Z | Document performance considerations
 - 2026-11-25T09:42:39Z | Add inline comments for type conversions
+- 2026-11-25T09:42:39Z | Document contribution workflow

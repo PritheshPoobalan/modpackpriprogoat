@@ -13,3 +13,4 @@
 - 2026-11-25T09:42:38Z | Add troubleshooting section to docs
 - 2026-11-25T09:42:38Z | Update changelog with recent changes
 - 2026-11-25T09:42:38Z | Improve README formatting and structure
+- 2026-11-25T09:42:39Z | Add project architecture overview

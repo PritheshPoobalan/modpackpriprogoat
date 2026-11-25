@@ -11,7 +11,9 @@ and maintain the modpack.
 - docs/usage.md — how to use the modpack after installation
 - docs/project-structure.md — repository layout conventions
 - docs/contributing.md — how to contribute changes to this repository
+- docs/overview.md — repository layout and module conventions
 - example/sample-modpack.json — example modpack manifest
+- example/sample.modpack — example module manifest for reference
 
 ## Requirements
 
@@ -80,6 +82,13 @@ Contributions are welcome. To contribute:
 
 Read docs/contributing.md for the contribution process, coding style, and how
 to submit changes.
+
+## Repository layout
+
+- README.md          - this file
+- docs/              - project documentation
+- example/           - example files for reference
+- modules/           - your modular pack components go here
 
 ## License
 

@@ -1,0 +1,17 @@
+# Example module manifest for modpackpriprogoat
+# Copy this file into a new module directory and adapt it for your module.
+
+module.name = example-module
+module.version = 0.1.0
+module.description = A minimal example module
+module.author = you@example.com
+
+# Files shipped with this module
+module.files = README.md, example-module.sh
+
+# Optional dependencies on other modules in this repository
+module.depends =
+
+# How to install or activate this module
+module.install = Copy the module directory into modules/ and source
+                 example-module.sh from your entry point.

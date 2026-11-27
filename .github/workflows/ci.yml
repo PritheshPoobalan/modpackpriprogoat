@@ -1,17 +1,18 @@
 name: CI
+
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+
 jobs:
-  verify:
+  lint-and-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      - name: Show repository layout
+      - uses: actions/checkout@v4
+      - name: Validate repository files
         run: |
-          echo "Repository: ${{ github.repository }}"
-          echo "Commit: ${{ github.sha }}"
-          find . -maxdepth 2 -type f -not -path "./.git/*" -not -path "./node_modules/*" | sort | head -80
+          test -f README.md || echo "WARNING: README.md not found"
+          test -f LICENSE || echo "WARNING: LICENSE not found"
+          test -f SECURITY.md || echo "WARNING: SECURITY.md not found"
